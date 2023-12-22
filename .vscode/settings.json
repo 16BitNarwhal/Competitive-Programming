@@ -16,6 +16,7 @@
     "*.HLASM*": "hlasm",
     "*.HLA*": "hlasm",
     "unordered_map": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "xstring": "cpp"
   }
 }
