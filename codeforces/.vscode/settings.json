@@ -16,6 +16,9 @@
     "*.HLASM*": "hlasm",
     "*.HLA*": "hlasm",
     "iostream": "cpp",
-    "xiosbase": "cpp"
+    "xiosbase": "cpp",
+    "ostream": "cpp",
+    "algorithm": "cpp",
+    "vector": "cpp"
   }
 }
