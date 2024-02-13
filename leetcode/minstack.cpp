@@ -9,6 +9,7 @@ public:
     Node(int val, Node* prev = NULL) {
         this->val = val;
         this->prev = prev;
+        // running min of previous nodes and current node
         if (prev) {
             this->min_val = min(prev->min_val, this->val); 
         } else {

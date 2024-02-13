@@ -14,6 +14,7 @@ class Solution {
 public:
     bool isValidBST(TreeNode* root, long long mn=((long long)INT_MIN)-1, long long mx=((long long)INT_MAX)+1) {
         bool valid = true;
+        // recursively check left and right subtrees are valid
         if (root->val <= mn || root->val >= mx) valid = false;
         if (root->left) valid &= isValidBST(root->left, mn, root->val);
         if (root->right) valid &= isValidBST(root->right, root->val, mx);
